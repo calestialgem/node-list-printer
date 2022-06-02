@@ -32,5 +32,15 @@ auto main(int const argc, args const argv) -> int
     auto const arguments = get_arguments(argc, argv);
     print_arguments(arguments);
 
+    auto constexpr corner_start{39};
+    auto constexpr corner_end{21};
+    auto constexpr edge_start{308};
+
+    std::cout << corner_start;
+    for (auto i{0}; i < corner_start - corner_end; ++i) {
+        std::cout << ',' << edge_start - 3 * i << ',' << corner_start - i - 1;
+    }
+
+    std::cout << std::endl;
     return EXIT_SUCCESS;
 }
