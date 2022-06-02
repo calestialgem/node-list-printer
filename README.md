@@ -1,9 +1,10 @@
 [comment]: # "SPDX-FileCopyrightText: (C) 2022 Cem Geçgel gecgelcem@outlook.com"
 [comment]: # "SPDX-License-Identifier: GPL-3.0-or-later"
 
-# şablon-cc
+# node list printer
 
-This is a _template_ repository for **C++** projects.
+Prints a node list for me to create a path in ABAQUS. The path is used for the
+slave surface in a contact problem.
 
 ---
 
